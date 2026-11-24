@@ -306,7 +306,7 @@ def interaksi_menu():
     print("\n    Memeriksa citra batuan terpilih:")
     belum = pastikan_citra(rocks, DATA_DIR)
     if belum:
-        sys.exit(f"[GALAT] Citra belum tersedia: {', '.join(belum)}. Periksa koneksi atau lihat README bagian Persiapan.")
+        sys.exit(f"[GALAT] Citra belum tersedia: {', '.join(belum)}. Periksa koneksi atau lihat baris data/ pada CATATAN.md bagian Susunan folder.")
 
     # 5. Mode Konvergensi Resolusi Penuh T0 (256^3)
     if 1 not in langkah_dipilih and 5 not in langkah_dipilih:
@@ -457,7 +457,7 @@ def main():
         if belum:
             sys.exit(f"[GALAT] Citra belum tersedia: {', '.join(belum)}. Unduh dengan program/unduh_data.py atau letakkan "
                      f"berkasnya di {os.path.join(os.path.abspath(args.data_dir), 'sumber', 'citra-biner')}/ "
-                     "(lihat README bagian Persiapan).")
+                     "(lihat baris data/ pada CATATAN.md bagian Susunan folder).")
         kat = muat_semua_batuan(args.data_dir)
         if len(rocks_arg) == 1 and rocks_arg[0].lower() in ["all", "semua"]:
             rocks_arg = urutkan_daftar_batuan(kat)
