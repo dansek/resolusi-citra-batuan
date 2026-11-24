@@ -1,0 +1,44 @@
+# Python virtual environment & cache
+.venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary logs & system files
+*.log
+.DS_Store
+
+# Hasil simulasi sementara yang dibuat saat runtime
+# (Folder hasil tetap ada, tetapi file JSON baru saat run diabaikan jika diinginkan,
+#  atau biarkan hasil acuan tersimpan)
+hasil/*.tmp
+
+# Data besar & file pendukung (tidak dikumpulkan)
+data/sumber/citra-biner
+*.raw
+*.npy
+archive/
+hasil_uji/
+laporan/
+
+# Batuan di luar laporan: hanya untuk visual 3D
+hasil/gpu/CastleGate/
+hasil/gpu/BanderaGray/
+hasil/gpu/BB/
+hasil/gpu/BanderaBrown/
+hasil/gpu/Kirby/
+hasil/gpu/Berea/
+hasil/gpu/Leopard/
+hasil/gpu/BUG/
+hasil/gpu/Parker/
+data/sumber/riwayat-konvergensi/*
+!data/sumber/riwayat-konvergensi/Bentheimer_penuh_*.json
+!data/sumber/riwayat-konvergensi/BSG_penuh_*.json
+
+# Sumber slide sementara
+.deck-slide/
+
+# Daftar pustaka tanpa CUDA yang dibuat saat memasang di mesin tanpa GPU NVIDIA
+lingkungan-cpu.txt

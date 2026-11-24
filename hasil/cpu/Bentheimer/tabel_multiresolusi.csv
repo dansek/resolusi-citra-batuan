@@ -1,0 +1,8 @@
+batuan,tingkat,cara,nama_cara,N,dx_um,phi_tot,phi_th,Sv_um1,dt_per_dx,ambang,berkas_npy
+Bentheimer,0,resolusi_penuh,Resolusi Penuh (256^3),256,2.25,0.26398879289627075,0.2623934745788574,0.03469226095411512,10.0,0.5,Bentheimer_T0_resolusi_penuh.npy
+Bentheimer,1,majority,Suara terbanyak (seri = padatan),128,4.5,0.25573205947875977,0.25444889068603516,0.033211708068847656,5.0,0.5,Bentheimer_T1_majority.npy
+Bentheimer,1,block_avg,"Rerata blok (ambang ulang, phi T0)",128,4.5,0.2709512710571289,0.2692713737487793,0.03406715393066406,5.0,0.4375,Bentheimer_T1_block_avg.npy
+Bentheimer,2,majority,Suara terbanyak (seri = padatan),64,9.0,0.2592430114746094,0.2578468322753906,0.030700683593750003,2.5,0.5,Bentheimer_T2_majority.npy
+Bentheimer,2,block_avg,"Rerata blok (ambang ulang, phi T0)",64,9.0,0.2653236389160156,0.263946533203125,0.03101009792751736,2.5,0.4765625,Bentheimer_T2_block_avg.npy
+Bentheimer,3,majority,Suara terbanyak (seri = padatan),32,18.0,0.25311279296875,0.2476806640625,0.025326199001736112,1.25,0.5,Bentheimer_T3_majority.npy
+Bentheimer,3,block_avg,"Rerata blok (ambang ulang, phi T0)",32,18.0,0.263946533203125,0.259521484375,0.025878906250000003,1.25,0.4677734375,Bentheimer_T3_block_avg.npy

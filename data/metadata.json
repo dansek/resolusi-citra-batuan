@@ -1,0 +1,142 @@
+{
+  "nama_percontoh": "Bentheimer dan Berea Sister Gray (BSG) pada laporan; batupasir lain hanya pada hasil/",
+  "asal": "Sebelas batupasir micro-CT, bundel penugasan; sumber asli Neumann dkk. (2021), doi:10.1038/s41598-021-90090-0",
+  "ukuran": [
+    256,
+    256,
+    256
+  ],
+  "tipe_data": "uint8",
+  "urutan_indeks": "C",
+  "urutan_byte": "little",
+  "ukuran_voxel_m": 2.25e-06,
+  "sisi_fisis_m": 0.000576,
+  "arti_nilai": {
+    "0": "pori",
+    "1": "padatan"
+  },
+  "sumbu_larik": "[z, y, x]; x adalah indeks yang berubah paling cepat",
+  "arah_aliran": "x, y, dan z, masing-masing dijalankan terpisah; beda tekanan dikenakan sepanjang sumbu aliran",
+  "prapemrosesan": [],
+  "ambang_segmentasi": "Citra sumber sudah biner dan dipakai apa adanya. Rentang segmentasi dibuat dengan tapis Gauss sigma = 0,8 voxel dan ambang T = Phi(-delta/sigma), tujuh delta dari -0,5 sampai +0,5 voxel (program/inti/inti_02_rentang_segmentasi.py).",
+  "catatan": "Citra sudah tersegmentasi menjadi biner. Porositas acuan pada tiap entri dipakai memeriksa bahwa pembacaan berkas sudah benar; jalankan data/sumber/baca_citra.py untuk memeriksanya.",
+  "berkas": [
+    {
+      "batuan": "BB",
+      "nama": "Buff Berea",
+      "berkas": "BB_2d25um_binary_256.raw",
+      "porositas_acuan": 0.220128,
+      "porositas_tersambung_acuan": 0.21894,
+      "bait": 16777216,
+      "sha256": "56b66bfde1e97bc9eac5273f54d59bd50d37359e75fad41a9c4f42c48ffa118f",
+      "id_drive": "1lvi54AOQPFKP3pZhr4rsR3iSOHzeShsH"
+    },
+    {
+      "batuan": "BSG",
+      "nama": "Berea Sister Gray",
+      "berkas": "BSG_2d25um_binary_256.raw",
+      "porositas_acuan": 0.187281,
+      "porositas_tersambung_acuan": 0.184539,
+      "bait": 16777216,
+      "sha256": "b0d8271967a9138235fbf2221f0a3357bf38b04232eb6fa025385a2eae91a016",
+      "id_drive": "1m6uiIbKJrmvBYWjnWbIMvhkqcHiz6E9v"
+    },
+    {
+      "batuan": "BUG",
+      "nama": "Berea Upper Gray",
+      "berkas": "BUG_2d25um_binary_256.raw",
+      "porositas_acuan": 0.194696,
+      "porositas_tersambung_acuan": 0.19188,
+      "bait": 16777216,
+      "sha256": "4522161c6d359964d135f25b9268ce969dea0b6a8875328789a2dc27c6e43956",
+      "id_drive": "1ut7pLRLgNsXjayZpoVJOpdBWRraedZgn"
+    },
+    {
+      "batuan": "BanderaBrown",
+      "nama": "Bandera Brown",
+      "berkas": "BanderaBrown_2d25um_binary_256.raw",
+      "porositas_acuan": 0.217638,
+      "porositas_tersambung_acuan": 0.213322,
+      "bait": 16777216,
+      "sha256": "e36f66e63656c8d20f8a5879162832cfa0a896345d9ba726405980f2030dd670",
+      "id_drive": "1W6_nnSqzMPP-49wDSbpKF9tHlAWfQBxd"
+    },
+    {
+      "batuan": "BanderaGray",
+      "nama": "Bandera Gray",
+      "berkas": "BanderaGray_2d25um_binary_256.raw",
+      "porositas_acuan": 0.230876,
+      "porositas_tersambung_acuan": 0.225993,
+      "bait": 16777216,
+      "sha256": "70d4441cc66484f5ca8f8701f6418e95912fd162c9aa71ea1c47a9eae45119b8",
+      "id_drive": "1KjCJp0NuzS6rVrGy8T0KH5AxXg4vtkJ-"
+    },
+    {
+      "batuan": "Bentheimer",
+      "nama": "Bentheimer",
+      "berkas": "Bentheimer_2d25um_binary_256.raw",
+      "porositas_acuan": 0.263989,
+      "porositas_tersambung_acuan": 0.262393,
+      "bait": 16777216,
+      "sha256": "27a92148b9ff87159ac411d1e78e4cf66cbfcf15aa1010465f4960cd1c03ef6c",
+      "id_drive": "1Vc3qeAcPbsDmTqxJ3WmrwSWElMLWtzKF"
+    },
+    {
+      "batuan": "Berea",
+      "nama": "Berea",
+      "berkas": "Berea_2d25um_binary_256.raw",
+      "porositas_acuan": 0.204143,
+      "porositas_tersambung_acuan": 0.199159,
+      "bait": 16777216,
+      "sha256": "a37defa018cf024b94ce70f443fbe22d83f4942d02292a5672f6b6922165dbe2",
+      "id_drive": "1maQC6Amtq-0Tsms7O-ose5qWV2Bb4pbA"
+    },
+    {
+      "batuan": "CastleGate",
+      "nama": "Castlegate",
+      "berkas": "CastleGate_2d25um_binary_256.raw",
+      "porositas_acuan": 0.264161,
+      "porositas_tersambung_acuan": 0.262829,
+      "bait": 16777216,
+      "sha256": "85cbfdf5dc72820a06f3c071572966f6fa91004f8ab98c946775962b6a03a175",
+      "id_drive": "1PokLFD17qEypAOa_IMoRTvRZ_dx1pG4k"
+    },
+    {
+      "batuan": "Kirby",
+      "nama": "Kirby",
+      "berkas": "Kirby_2d25um_binary_256.raw",
+      "porositas_acuan": 0.205284,
+      "porositas_tersambung_acuan": 0.203326,
+      "bait": 16777216,
+      "sha256": "578de8ea787024e4488dfc4568eb1b517bf724b0154e2c837faa73e13fd0b1fd",
+      "id_drive": "1b19-pN_yCoimcCFkCjX3_RhkfXE0oiBa"
+    },
+    {
+      "batuan": "Leopard",
+      "nama": "Leopard",
+      "berkas": "Leopard_2d25um_binary_256.raw",
+      "porositas_acuan": 0.19479,
+      "porositas_tersambung_acuan": 0.191797,
+      "bait": 16777216,
+      "sha256": "9944f5cb2d26ca86eba432863005492215d36c06b1d216d00806c0c64435460f",
+      "id_drive": "1leAiOTG1hn84snKtyb1AbQ5PSiUNQ8dG"
+    },
+    {
+      "batuan": "Parker",
+      "nama": "Parker",
+      "berkas": "Parker_2d25um_binary_256.raw",
+      "porositas_acuan": 0.099884,
+      "porositas_tersambung_acuan": 0.087454,
+      "bait": 16777216,
+      "sha256": "0d994203584534ee84394754d8738afe8a02a77ed9393cc6e502c8c1ea418b55",
+      "id_drive": "1Xs_949gbI6HAy2SO48BbUcq4ENfW-4Zi"
+    }
+  ],
+  "unduhan": {
+    "folder_drive": "https://drive.google.com/drive/folders/1MGmvIBDEevMjF6MFDZj1D5Wtg2bm5vne",
+    "subfolder": "citra-biner",
+    "tujuan_lokal": "data/sumber/citra-biner",
+    "program": "program/unduh_data.py (dipanggil otomatis oleh run.py)",
+    "id_subfolder": "1j-jYk7N06s3BvIcUNzfLDfio71a0nF1U"
+  }
+}

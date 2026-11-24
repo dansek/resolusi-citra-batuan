@@ -1,0 +1,107 @@
+{
+  "backend": "cpu",
+  "tau": 1.0,
+  "drho": 0.002,
+  "buffer": 4,
+  "panjang_sampel": 32,
+  "kasus": [
+    {
+      "kasus": "saluran_persegi",
+      "ukuran_voxel": 4,
+      "K_kisi_simulasi": 0.6041667909587686,
+      "K_kisi_eksak": 0.5623080608659506,
+      "galat_nisbi": 0.07444092127784148,
+      "langkah": 600,
+      "konvergen": true,
+      "residual_akhir": 2.769462250245996e-12,
+      "durasi_detik": 4.231480552814901
+    },
+    {
+      "kasus": "saluran_persegi",
+      "ukuran_voxel": 8,
+      "K_kisi_simulasi": 2.2981002500987824,
+      "K_kisi_eksak": 2.2492322434638026,
+      "galat_nisbi": 0.021726527697168083,
+      "langkah": 800,
+      "konvergen": true,
+      "residual_akhir": 1.2715315620751564e-13,
+      "durasi_detik": 1.3529803561978042
+    },
+    {
+      "kasus": "saluran_persegi",
+      "ukuran_voxel": 16,
+      "K_kisi_simulasi": 9.048180332956626,
+      "K_kisi_eksak": 8.99692897385521,
+      "galat_nisbi": 0.005696539258045794,
+      "langkah": 1800,
+      "konvergen": true,
+      "residual_akhir": 9.599957223191522e-10,
+      "durasi_detik": 1.8522038548253477
+    },
+    {
+      "kasus": "saluran_persegi",
+      "ukuran_voxel": 32,
+      "K_kisi_simulasi": 36.03670063258245,
+      "K_kisi_eksak": 35.98771589542084,
+      "galat_nisbi": 0.0013611516025067796,
+      "langkah": 5200,
+      "konvergen": true,
+      "residual_akhir": 4.6663230551356754e-08,
+      "durasi_detik": 4.298440511804074
+    },
+    {
+      "kasus": "pipa_bundar",
+      "ukuran_voxel": 8,
+      "K_kisi_simulasi": 1.6521468067112595,
+      "K_kisi_eksak": 1.5707963267948966,
+      "galat_nisbi": 0.051789324006348454,
+      "langkah": 800,
+      "konvergen": true,
+      "residual_akhir": 1.921886019771168e-14,
+      "durasi_detik": 1.3219991568475962
+    },
+    {
+      "kasus": "pipa_bundar",
+      "ukuran_voxel": 16,
+      "K_kisi_simulasi": 6.602524453834009,
+      "K_kisi_eksak": 6.283185307179586,
+      "galat_nisbi": 0.05082440371279913,
+      "langkah": 1600,
+      "konvergen": true,
+      "residual_akhir": 9.388518942538624e-10,
+      "durasi_detik": 1.6956683010794222
+    },
+    {
+      "kasus": "pipa_bundar",
+      "ukuran_voxel": 32,
+      "K_kisi_simulasi": 25.32977718935418,
+      "K_kisi_eksak": 25.132741228718345,
+      "galat_nisbi": 0.007839811775513258,
+      "langkah": 4600,
+      "konvergen": true,
+      "residual_akhir": 3.348646872793468e-08,
+      "durasi_detik": 3.4873353401198983
+    }
+  ],
+  "ringkasan": {
+    "saluran_persegi": {
+      "orde_teramati": 1.925088872812014,
+      "richardson_gci": {
+        "r": 2.0,
+        "p": 1.8865404798320031,
+        "k_ekstrapolasi": 0.0351356065454363,
+        "GCI_halus_persen": 0.20062716980319076
+      },
+      "galat_terhalus_persen": 0.13611516025067796
+    },
+    "pipa_bundar": {
+      "orde_teramati": 1.3618819024744453,
+      "richardson_gci": {
+        "r": 2.0,
+        "p": -5.477266025644032,
+        "catatan": "orde tidak wajar, di luar wilayah asimtotik (galat geometri tangga)"
+      },
+      "galat_terhalus_persen": 0.7839811775513258
+    }
+  }
+}

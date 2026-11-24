@@ -1,0 +1,42 @@
+[
+  {
+    "batuan": "BSG",
+    "cara": "majority",
+    "setengah_lebar_segmentasi_persen": 52.17722072318522,
+    "tingkat_kritis": "T3",
+    "dx_kritis_um": 18.0,
+    "dt_per_dx_kritis": 0.75,
+    "simpangan_kgeo_kritis_persen": 29.80932259257876,
+    "tingkat_berikutnya": "",
+    "simpangan_kgeo_berikutnya_persen": NaN,
+    "lipatan_fov_per_arah": 8.0,
+    "lipatan_fov_volume": 512.0,
+    "tingkat_kritis_nyquist": "T1",
+    "dx_kritis_nyquist_um": 4.5,
+    "dt_per_dx_kritis_nyquist": 3.0,
+    "simpangan_kgeo_kritis_nyquist_persen": -5.661200077111872,
+    "lipatan_fov_nyquist_per_arah": 2.0,
+    "lipatan_fov_nyquist_volume": 8.0,
+    "pernyataan": "BSG (suara terbanyak): citra dapat dikasarkan sampai T3, dx = 18.00 um (simpangan k_geo +29.8% terhadap pita +/-52.2%), sehingga medan pandang dapat diperluas 8 kali per arah (512 kali volume) pada cacah voxel detektor tetap. Dengan syarat Nyquist (d_t/dx >= 2) batasnya T1, dx = 4.50 um (d_t/dx = 3.00), medan pandang 2 kali per arah (8 kali volume)."
+  },
+  {
+    "batuan": "BSG",
+    "cara": "block_avg",
+    "setengah_lebar_segmentasi_persen": 52.17722072318522,
+    "tingkat_kritis": "T2",
+    "dx_kritis_um": 9.0,
+    "dt_per_dx_kritis": 1.5,
+    "simpangan_kgeo_kritis_persen": 49.07481453641294,
+    "tingkat_berikutnya": "T3",
+    "simpangan_kgeo_berikutnya_persen": 128.65691456699477,
+    "lipatan_fov_per_arah": 4.0,
+    "lipatan_fov_volume": 64.0,
+    "tingkat_kritis_nyquist": "T1",
+    "dx_kritis_nyquist_um": 4.5,
+    "dt_per_dx_kritis_nyquist": 3.0,
+    "simpangan_kgeo_kritis_nyquist_persen": 27.633272149677012,
+    "lipatan_fov_nyquist_per_arah": 2.0,
+    "lipatan_fov_nyquist_volume": 8.0,
+    "pernyataan": "BSG (rerata blok): citra dapat dikasarkan sampai T2, dx = 9.00 um (simpangan k_geo +49.1% terhadap pita +/-52.2%), sehingga medan pandang dapat diperluas 4 kali per arah (64 kali volume) pada cacah voxel detektor tetap. Pada tingkat berikutnya T3 (dx = 18.00 um) simpangannya +128.7%. Dengan syarat Nyquist (d_t/dx >= 2) batasnya T1, dx = 4.50 um (d_t/dx = 3.00), medan pandang 2 kali per arah (8 kali volume)."
+  }
+]

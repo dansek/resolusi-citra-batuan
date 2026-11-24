@@ -1,0 +1,4 @@
+batuan,arah,phi,phi_terhubung,K_mD,K_kisi,langkah,konvergen,operator,tau,drho,domain
+Bentheimer,x,0.263989,0.262393,2964.7593,5.77973335e-01,9500,1,bgk,1.0,0.002,"[264, 258, 258]"
+Bentheimer,y,0.263989,0.262393,3490.8004,6.80523907e-01,14000,1,bgk,1.0,0.002,"[264, 258, 258]"
+Bentheimer,z,0.263989,0.262393,2954.6965,5.76011610e-01,23000,1,bgk,1.0,0.002,"[264, 258, 258]"

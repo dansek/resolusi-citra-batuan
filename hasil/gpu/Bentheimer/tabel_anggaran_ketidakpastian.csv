@@ -1,0 +1,5 @@
+batuan,komponen,tipe,u_lnk,dasar,u_persen,sumbangan_ragam_persen
+Bentheimer,ambang segmentasi,B,0.11534639231514321,|d ln k/d delta| = 0.400/voxel x 0.5 voxel / sqrt(3) (P13),11.534639231514321,60.27484034439272
+Bentheimer,keterwakilan sampel (subvolume),A,0.0936414798618438,"simpangan baku ln k, 6 subvolume 128^3 arah x (Langkah 04, P13 u_sub)",9.364147986184381,39.72506113803979
+Bentheimer,kriteria konvergensi,B,0.00014746631278954946,"selisih K kriteria lama (sisa<5e-5) vs P7/P11 maks 0.026 %, / sqrt(3)",0.014746631278954946,9.851756751105351e-05
+Bentheimer,derau citra,-,nan,tidak dapat dinilai: citra sumber sudah biner (tanpa aras keabuan),nan,nan

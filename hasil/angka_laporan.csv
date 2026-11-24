@@ -1,0 +1,79 @@
+bagian,besaran,batuan,nilai,satuan,sumber
+2.3,beban proses lain terbesar,Bentheimer,0.440305,%,kondisi_perangkat pada berkas kasus
+2.3,waktu rantai kerja GPU,Bentheimer,40,menit,hasil/waktu_maraton.csv
+2.3,waktu rantai kerja CPU,Bentheimer,278,menit,hasil/waktu_maraton.csv
+2.3,percepatan GPU,Bentheimer,6.95,kali,hasil/waktu_maraton.csv
+3,kasus dengan syarat fluks terpenuhi sesudah sisa,Bentheimer,0,dari 60,riwayat kasus GPU
+3,"geser k maks bila berhenti dengan kriteria acuan, T0-T3",Bentheimer,0.0219616,%,riwayat kasus GPU
+3,"geser k maks bila berhenti dengan kriteria acuan, semua kasus",Bentheimer,0.0276183,%,riwayat kasus GPU
+3,"langkah fluks < 1e-3, arah x",Bentheimer,3000,langkah,riwayat T0
+3,"selisih k terhadap acuan pada langkah acuan, arah x",Bentheimer,-0.184121,%,riwayat T0
+5,"selisih k akhir terhadap acuan, arah x",Bentheimer,-0.186074,%,riwayat T0
+5,"langkah tunak, arah x",Bentheimer,9500,langkah,riwayat T0
+3,"langkah fluks < 1e-3, arah y",Bentheimer,5000,langkah,riwayat T0
+3,"selisih k terhadap acuan pada langkah acuan, arah y",Bentheimer,-0.315692,%,riwayat T0
+5,"selisih k akhir terhadap acuan, arah y",Bentheimer,-0.321094,%,riwayat T0
+5,"langkah tunak, arah y",Bentheimer,14000,langkah,riwayat T0
+3,"langkah fluks < 1e-3, arah z",Bentheimer,12000,langkah,riwayat T0
+3,"selisih k terhadap acuan pada langkah acuan, arah z",Bentheimer,-0.393152,%,riwayat T0
+5,"selisih k akhir terhadap acuan, arah z",Bentheimer,-0.415022,%,riwayat T0
+5,"langkah tunak, arah z",Bentheimer,23000,langkah,riwayat T0
+5,k Koponen,Bentheimer,3945.06,mD,"phi, tau_u, Sv hasil citra ini"
+5,k simulasi / k Koponen,Bentheimer,0.792664,kali,dihitung
+5,k simulasi,Bentheimer,3127.1,mD,simulasi_multiresolusi T0
+5,k laboratorium,Bentheimer,386,mD,data/pembanding_eksternal.csv
+5,k simulasi / k laboratorium,Bentheimer,8.10131,kali,dihitung
+5,selisih phi citra terhadap rerata formasi,Bentheimer,-0.756093,%,data/pembanding_eksternal.csv
+6,k maks terhadap median,Bentheimer,38.6722,%,basis_acuan.json
+6,k min terhadap median,Bentheimer,-27.2699,%,basis_acuan.json
+6,k median terhadap citra asli,Bentheimer,0.752503,%,basis_acuan.json
+6,langkah terbanyak pada sapuan segmentasi,Bentheimer,28500,langkah,rentang_segmentasi/
+2.2,k_geo data acuan,Bentheimer,3136.75,mD,data/sumber/sebelas-batupasir.csv
+2.1,selisih phi citra terhadap tabel acuan,Bentheimer,2.07104e-07,mutlak,permeabilitas_kondisi_tunak.json dan data/sumber/sebelas-batupasir.csv
+12,"selang 95 % k resolusi penuh, batas bawah",Bentheimer,2323.24,mD,rekapitulasi_akhir_s4.json (k0 e^(+-U))
+12,"selang 95 % k resolusi penuh, batas atas",Bentheimer,4209.11,mD,rekapitulasi_akhir_s4.json (k0 e^(+-U))
+10,2 r_t / dx pada 4.5 um,Bentheimer,3.95111,voxel,data/pembanding_eksternal.csv
+10,2 r_t / dx pada 9 um,Bentheimer,1.97556,voxel,data/pembanding_eksternal.csv
+2.3,beban proses lain terbesar,BSG,1.50783,%,kondisi_perangkat pada berkas kasus
+2.3,waktu rantai kerja GPU,BSG,116,menit,hasil/waktu_maraton.csv
+2.3,waktu rantai kerja CPU,BSG,794,menit,hasil/waktu_maraton.csv
+2.3,percepatan GPU,BSG,6.84483,kali,hasil/waktu_maraton.csv
+3,kasus dengan syarat fluks terpenuhi sesudah sisa,BSG,0,dari 60,riwayat kasus GPU
+3,"geser k maks bila berhenti dengan kriteria acuan, T0-T3",BSG,0.0666701,%,riwayat kasus GPU
+3,"geser k maks bila berhenti dengan kriteria acuan, semua kasus",BSG,0.143542,%,riwayat kasus GPU
+3,"langkah fluks < 1e-3, arah x",BSG,27500,langkah,riwayat T0
+3,"selisih k terhadap acuan pada langkah acuan, arah x",BSG,-0.0982806,%,riwayat T0
+5,"selisih k akhir terhadap acuan, arah x",BSG,-0.134497,%,riwayat T0
+5,"langkah tunak, arah x",BSG,41500,langkah,riwayat T0
+3,"langkah fluks < 1e-3, arah y",BSG,34500,langkah,riwayat T0
+3,"selisih k terhadap acuan pada langkah acuan, arah y",BSG,-0.1292,%,riwayat T0
+5,"selisih k akhir terhadap acuan, arah y",BSG,-0.18358,%,riwayat T0
+5,"langkah tunak, arah y",BSG,64500,langkah,riwayat T0
+3,"langkah fluks < 1e-3, arah z",BSG,25000,langkah,riwayat T0
+3,"selisih k terhadap acuan pada langkah acuan, arah z",BSG,-0.102187,%,riwayat T0
+5,"selisih k akhir terhadap acuan, arah z",BSG,-0.168744,%,riwayat T0
+5,"langkah tunak, arah z",BSG,65000,langkah,riwayat T0
+5,k Koponen,BSG,847.447,mD,"phi, tau_u, Sv hasil citra ini"
+5,k simulasi / k Koponen,BSG,0.675948,kali,dihitung
+5,k simulasi,BSG,572.83,mD,simulasi_multiresolusi T0
+5,k laboratorium,BSG,80,mD,data/pembanding_eksternal.csv
+5,k simulasi / k laboratorium,BSG,7.16037,kali,dihitung
+5,selisih phi citra terhadap rerata formasi,BSG,-4.93331,%,data/pembanding_eksternal.csv
+6,k maks terhadap median,BSG,63.6531,%,basis_acuan.json
+6,k min terhadap median,BSG,-40.7014,%,basis_acuan.json
+6,k median terhadap citra asli,BSG,2.11177,%,basis_acuan.json
+6,langkah terbanyak pada sapuan segmentasi,BSG,166500,langkah,rentang_segmentasi/
+2.2,k_geo data acuan,BSG,573.761,mD,data/sumber/sebelas-batupasir.csv
+2.1,selisih phi citra terhadap tabel acuan,BSG,3.70163e-07,mutlak,permeabilitas_kondisi_tunak.json dan data/sumber/sebelas-batupasir.csv
+12,"selang 95 % k resolusi penuh, batas bawah",BSG,194.456,mD,rekapitulasi_akhir_s4.json (k0 e^(+-U))
+12,"selang 95 % k resolusi penuh, batas atas",BSG,1687.45,mD,rekapitulasi_akhir_s4.json (k0 e^(+-U))
+10,2 r_t / dx pada 4.5 um,BSG,2.81778,voxel,data/pembanding_eksternal.csv
+10,2 r_t / dx pada 9 um,BSG,1.40889,voxel,data/pembanding_eksternal.csv
+2.3,selisih k GPU-CPU terbesar,keduanya,3.78297e-12,"nisbi, 120 pasangan",hasil/gpu dan hasil/cpu
+3,"kelipatan langkah terhadap acuan, minimum",keduanya,1.58333,kali,riwayat T0
+3,"kelipatan langkah terhadap acuan, maksimum",keduanya,2.80435,kali,riwayat T0
+5,"kelipatan langkah BSG terhadap Bentheimer, minimum",keduanya,2.82609,kali,riwayat T0
+5,"kelipatan langkah BSG terhadap Bentheimer, maksimum",keduanya,4.60714,kali,riwayat T0
+5,"nisbah k Bentheimer/BSG, simulasi",keduanya,5.45905,kali,dihitung
+5,"nisbah k Bentheimer/BSG, laboratorium",keduanya,4.825,kali,data/pembanding_eksternal.csv
+5,"nisbah k Bentheimer/BSG, Koponen",keduanya,4.65522,kali,dihitung

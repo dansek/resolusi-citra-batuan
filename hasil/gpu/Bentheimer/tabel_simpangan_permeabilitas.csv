@@ -1,0 +1,7 @@
+batuan,tingkat,cara,dx_um,dt_per_dx,delta_kx_persen,delta_ky_persen,delta_kz_persen,delta_kgeo_persen,dalam_pita_geo,dalam_pita_x,dalam_pita_y,dalam_pita_z,konvergen_xyz
+Bentheimer,T1,majority,4.5,5.0,-6.0046692720656765,-5.557410812868335,-4.9531720292611325,-5.5060658030119285,True,True,True,True,True
+Bentheimer,T1,block_avg,4.5,5.0,15.596779351197942,15.114742744711428,16.124849003785123,15.611387839852298,True,True,True,True,True
+Bentheimer,T2,majority,9.0,2.5,19.71945838489091,17.934547700143,19.74969230568997,19.131533387964296,True,True,True,True,True
+Bentheimer,T2,block_avg,9.0,2.5,29.55410218804637,26.165364280372017,28.894361602439457,28.196178241116108,True,True,True,True,True
+Bentheimer,T3,majority,18.0,1.25,54.474726425483546,49.5506505834872,52.72338006666071,52.23590367975592,False,False,False,False,True
+Bentheimer,T3,block_avg,18.0,1.25,78.81937614357952,71.43379494360373,77.16194824112166,75.77636830427276,False,False,False,False,True

@@ -1,0 +1,94 @@
+{
+ "himpunan": "Sebelas batupasir micro-CT",
+ "sumber": "Neumann dkk. (2021), doi:10.1038/s41598-021-90090-0",
+ "ukuran_voxel_tiap_sumbu": 256,
+ "ukuran_voxel_m": 2.25e-06,
+ "sisi_fisis_m": 0.000576,
+ "tipe_data": "uint8",
+ "urutan_indeks": "C",
+ "urutan_byte": "little",
+ "arti_nilai": {
+  "0": "pori",
+  "1": "padatan"
+ },
+ "catatan": "Citra sudah tersegmentasi menjadi biner. Porositas acuan pada tiap entri dipakai memeriksa bahwa pembacaan berkas sudah benar; jalankan 04-program/baca_citra.py untuk memeriksanya.",
+ "berkas": [
+  {
+   "batuan": "BB",
+   "nama": "Buff Berea",
+   "berkas": "BB_2d25um_binary_256.raw",
+   "porositas_acuan": 0.220128,
+   "porositas_tersambung_acuan": 0.21894
+  },
+  {
+   "batuan": "BSG",
+   "nama": "Berea Sister Gray",
+   "berkas": "BSG_2d25um_binary_256.raw",
+   "porositas_acuan": 0.187281,
+   "porositas_tersambung_acuan": 0.184539
+  },
+  {
+   "batuan": "BUG",
+   "nama": "Berea Upper Gray",
+   "berkas": "BUG_2d25um_binary_256.raw",
+   "porositas_acuan": 0.194696,
+   "porositas_tersambung_acuan": 0.19188
+  },
+  {
+   "batuan": "BanderaBrown",
+   "nama": "Bandera Brown",
+   "berkas": "BanderaBrown_2d25um_binary_256.raw",
+   "porositas_acuan": 0.217638,
+   "porositas_tersambung_acuan": 0.213322
+  },
+  {
+   "batuan": "BanderaGray",
+   "nama": "Bandera Gray",
+   "berkas": "BanderaGray_2d25um_binary_256.raw",
+   "porositas_acuan": 0.230876,
+   "porositas_tersambung_acuan": 0.225993
+  },
+  {
+   "batuan": "Bentheimer",
+   "nama": "Bentheimer",
+   "berkas": "Bentheimer_2d25um_binary_256.raw",
+   "porositas_acuan": 0.263989,
+   "porositas_tersambung_acuan": 0.262393
+  },
+  {
+   "batuan": "Berea",
+   "nama": "Berea",
+   "berkas": "Berea_2d25um_binary_256.raw",
+   "porositas_acuan": 0.204143,
+   "porositas_tersambung_acuan": 0.199159
+  },
+  {
+   "batuan": "CastleGate",
+   "nama": "Castlegate",
+   "berkas": "CastleGate_2d25um_binary_256.raw",
+   "porositas_acuan": 0.264161,
+   "porositas_tersambung_acuan": 0.262829
+  },
+  {
+   "batuan": "Kirby",
+   "nama": "Kirby",
+   "berkas": "Kirby_2d25um_binary_256.raw",
+   "porositas_acuan": 0.205284,
+   "porositas_tersambung_acuan": 0.203326
+  },
+  {
+   "batuan": "Leopard",
+   "nama": "Leopard",
+   "berkas": "Leopard_2d25um_binary_256.raw",
+   "porositas_acuan": 0.19479,
+   "porositas_tersambung_acuan": 0.191797
+  },
+  {
+   "batuan": "Parker",
+   "nama": "Parker",
+   "berkas": "Parker_2d25um_binary_256.raw",
+   "porositas_acuan": 0.099884,
+   "porositas_tersambung_acuan": 0.087454
+  }
+ ]
+}

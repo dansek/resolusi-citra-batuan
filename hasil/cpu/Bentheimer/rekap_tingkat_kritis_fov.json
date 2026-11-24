@@ -1,0 +1,42 @@
+[
+  {
+    "batuan": "Bentheimer",
+    "cara": "majority",
+    "setengah_lebar_segmentasi_persen": 32.97105235221644,
+    "tingkat_kritis": "T2",
+    "dx_kritis_um": 9.0,
+    "dt_per_dx_kritis": 2.5,
+    "simpangan_kgeo_kritis_persen": 19.13153338783986,
+    "tingkat_berikutnya": "T3",
+    "simpangan_kgeo_berikutnya_persen": 52.23590367968265,
+    "lipatan_fov_per_arah": 4.0,
+    "lipatan_fov_volume": 64.0,
+    "tingkat_kritis_nyquist": "T2",
+    "dx_kritis_nyquist_um": 9.0,
+    "dt_per_dx_kritis_nyquist": 2.5,
+    "simpangan_kgeo_kritis_nyquist_persen": 19.13153338783986,
+    "lipatan_fov_nyquist_per_arah": 4.0,
+    "lipatan_fov_nyquist_volume": 64.0,
+    "pernyataan": "Bentheimer (suara terbanyak): citra dapat dikasarkan sampai T2, dx = 9.00 um (simpangan k_geo +19.1% terhadap pita +/-33.0%), sehingga medan pandang dapat diperluas 4 kali per arah (64 kali volume) pada cacah voxel detektor tetap. Pada tingkat berikutnya T3 (dx = 18.00 um) simpangannya +52.2%."
+  },
+  {
+    "batuan": "Bentheimer",
+    "cara": "block_avg",
+    "setengah_lebar_segmentasi_persen": 32.97105235221644,
+    "tingkat_kritis": "T2",
+    "dx_kritis_um": 9.0,
+    "dt_per_dx_kritis": 2.5,
+    "simpangan_kgeo_kritis_persen": 28.196178240971072,
+    "tingkat_berikutnya": "T3",
+    "simpangan_kgeo_berikutnya_persen": 75.77636830419472,
+    "lipatan_fov_per_arah": 4.0,
+    "lipatan_fov_volume": 64.0,
+    "tingkat_kritis_nyquist": "T2",
+    "dx_kritis_nyquist_um": 9.0,
+    "dt_per_dx_kritis_nyquist": 2.5,
+    "simpangan_kgeo_kritis_nyquist_persen": 28.196178240971072,
+    "lipatan_fov_nyquist_per_arah": 4.0,
+    "lipatan_fov_nyquist_volume": 64.0,
+    "pernyataan": "Bentheimer (rerata blok): citra dapat dikasarkan sampai T2, dx = 9.00 um (simpangan k_geo +28.2% terhadap pita +/-33.0%), sehingga medan pandang dapat diperluas 4 kali per arah (64 kali volume) pada cacah voxel detektor tetap. Pada tingkat berikutnya T3 (dx = 18.00 um) simpangannya +75.8%."
+  }
+]

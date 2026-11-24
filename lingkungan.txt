@@ -1,0 +1,26 @@
+# Versi pustaka yang dipakai untuk seluruh hasil laporan, dari pip freeze pada lingkungan bersih.
+# Python 3.13.5, Debian GNU/Linux 13. Pasang: python3 -m venv .venv && .venv/bin/pip install -r lingkungan.txt
+# cupy-cuda13x hanya dipakai backend GPU (NVIDIA, toolkit CUDA 13 terpasang; diuji pada A30).
+# Tanpa GPU NVIDIA, backend CPU tetap berjalan; baris cupy-cuda13x dan cuda-pathfinder boleh dilewati.
+contourpy==1.4.0
+cuda-pathfinder==1.9.1
+cupy-cuda13x==14.2.0
+cycler==0.12.1
+fonttools==4.68.0
+ImageIO==2.38.2
+kiwisolver==1.5.1
+lazy-loader==0.6
+llvmlite==0.50.0
+matplotlib==3.11.2
+networkx==3.7
+numba==0.68.1
+numpy==2.5.5
+packaging==26.4
+pillow==13.0.0
+psutil==7.2.2
+pyparsing==3.3.3
+python-dateutil==4.0.0
+scikit-image==0.26.0
+scipy==1.18.1
+tifffile==2026.11.16
+tzdata==2026.6

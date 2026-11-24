@@ -1,0 +1,8 @@
+batuan,tingkat,cara,nama_cara,N,dx_um,phi_tot,phi_th,Sv_um1,dt_per_dx,ambang,berkas_npy
+BSG,0,resolusi_penuh,Resolusi Penuh (256^3),256,2.25,0.18728137016296387,0.18453919887542725,0.03990364074707031,6.0,0.5,BSG_T0_resolusi_penuh.npy
+BSG,1,majority,Suara terbanyak (seri = padatan),128,4.5,0.17713451385498047,0.17346477508544922,0.03712315029568142,3.0,0.5,BSG_T1_majority.npy
+BSG,1,block_avg,"Rerata blok (ambang ulang, phi T0)",128,4.5,0.19491147994995117,0.1914973258972168,0.0390226576063368,3.0,0.4375,BSG_T1_block_avg.npy
+BSG,2,majority,Suara terbanyak (seri = padatan),64,9.0,0.17980575561523438,0.17325592041015625,0.0329649183485243,1.5,0.5,BSG_T2_majority.npy
+BSG,2,block_avg,"Rerata blok (ambang ulang, phi T0)",64,9.0,0.18640518188476562,0.17998123168945312,0.03355450100368924,1.5,0.4765625,BSG_T2_block_avg.npy
+BSG,3,majority,Suara terbanyak (seri = padatan),32,18.0,0.165069580078125,0.130889892578125,0.023500230577256944,0.75,0.5,BSG_T3_majority.npy
+BSG,3,block_avg,"Rerata blok (ambang ulang, phi T0)",32,18.0,0.187225341796875,0.166961669921875,0.025356716579861112,0.75,0.4384765625,BSG_T3_block_avg.npy
