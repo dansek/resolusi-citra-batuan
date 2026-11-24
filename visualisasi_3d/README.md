@@ -6,8 +6,13 @@ Pelengkap visual laporan, bukan sumber angka laporan. Sebelas batupasir dari pak
 
 ## Cara membuka
 
-Klik ganda `index.html` (tidak perlu server). Three.js dan huruf IBM Plex dimuat dari internet.
-Alamat langsung: `index.html#BSG-T1-majority-x` (batuan-tingkat-cara-arah).
+**Penampil daring: [https://dansek.github.io/resolusi-citra-batuan/visualisasi_3d/](https://dansek.github.io/resolusi-citra-batuan/visualisasi_3d/)**
+
+Alamat langsung ke batuan, tingkat, cara, dan arah tertentu, misalnya batas kekasaran di laporan:
+[Bentheimer 9 µm](https://dansek.github.io/resolusi-citra-batuan/visualisasi_3d/#Bentheimer-T2-majority-x) dan [BSG 4,5 µm](https://dansek.github.io/resolusi-citra-batuan/visualisasi_3d/#BSG-T1-majority-x).
+
+Tanpa internet ke GitHub Pages: klon atau unduh repositori, lalu klik ganda `visualisasi_3d/index.html` di komputer
+sendiri (tidak perlu server; Three.js dan huruf IBM Plex tetap dimuat dari internet).
 
 Yang ditampilkan:
 

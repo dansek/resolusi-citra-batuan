@@ -53,7 +53,7 @@ CPU 2 × Intel Xeon Gold 5320; langkah 1 dan 2 di atas masing-masing sekitar sat
 
 `data/` metadata citra dan data acuan · `program/` satu berkas per langkah (00–09) · `hasil/` CSV dan JSON per
 backend dan batuan · `gambar/` gambar laporan · `lingkungan.txt` versi pustaka (`pip freeze`) ·
-`visualisasi_3d/` penampil 3D pori dan aliran T0–T3 (buka `index.html`; bukan sumber angka laporan).
+`visualisasi_3d/` penampil 3D pori dan aliran T0–T3, bukan sumber angka laporan: **[buka penampil](https://dansek.github.io/resolusi-citra-batuan/visualisasi_3d/)**.
 
 - **Belum konvergen:** tidak ada; 120 dari 120 kasus tunak.
 - **REV tidak tercapai:** permeabilitas sampai subvolume 128³ (koefisien variasi 9 % dan 57 %).
